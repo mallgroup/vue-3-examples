@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { ref, toRefs, toRef } from 'vue'
+import { ref } from 'vue'
 import searchCountries from '../composables/searchCountries'
 import filterCountries from '../composables/filterCountries'
 

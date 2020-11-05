@@ -1,0 +1,17 @@
+{
+  "name": "vue-3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.2",
+    "axios": "^0.20.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.8",
+    "@vue/compiler-sfc": "^3.0.2"
+  }
+}

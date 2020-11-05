@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { ref, toRefs } from 'vue'
+import { ref, toRefs, toRef } from 'vue'
 import searchCountries from '../composables/searchCountries'
 import filterCountries from '../composables/filterCountries'
 
@@ -30,9 +30,7 @@ export default {
       required: true
     }
   },
-  setup (props) {
-    const { placeholderLocale, loadingLocale } = toRefs(props)
-
+  setup () {
     const search = ref('')
 
     const { countriesData, loading } = searchCountries()

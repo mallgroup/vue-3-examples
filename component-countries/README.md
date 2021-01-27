@@ -2,7 +2,7 @@
 
 Blog: <>
 
-## Instalace
+## Instalace závislostí
 
 ```sh
 npm install

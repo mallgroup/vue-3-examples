@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import { ref } from 'vue'
 import MallGroup from './components/MallGroup.vue'
 import MallGroupSearchCountries from './components/MallGroupSearchCountries.vue'
 

@@ -10,14 +10,15 @@
     </div>
     <div class="p-8 m-5 bg-gray-100">
       <UserRegistrationOutput
-        v-model:username="username"
-        v-model:password="password"
+        :username="username"
+        :password="password"
       />
     </div>
   </div>
 </template>
 
 <script>
+import { ref } from 'vue'
 import UserRegistration from './components/UserRegistration.vue'
 import UserRegistrationOutput from './components/UserRegistrationOutput.vue'
 
@@ -27,10 +28,13 @@ export default {
     UserRegistration,
     UserRegistrationOutput
   },
-  data () {
+  setup () {
+    const username = ref('')
+    const password = ref('')
+
     return {
-      username: '',
-      password: ''
+      username,
+      password
     }
   }
 }

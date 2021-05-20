@@ -26,7 +26,6 @@
 </template>
 
 <script>
-// import { ref } from 'vue'
 import MallButton from './components/MallButton.vue'
 
 export default {
